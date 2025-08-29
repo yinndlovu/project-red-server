@@ -10,4 +10,15 @@
         <maven.compiler.release>21</maven.compiler.release>
         <exec.mainClass>projectred.ProjectRedServer</exec.mainClass>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.5.5</version>
+    </parent>
 </project>
