@@ -4,7 +4,7 @@
     <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
     <class>projectred.model.User</class>
     <class>projectred.dto.UserRegistrationDto</class>
-    <properties>
+    <properties> 
       <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://dpg-d2ljkivdiees73c3mlg0-a.frankfurt-postgres.render.com:5432/test_hjrz"/>
       <property name="jakarta.persistence.jdbc.user" value="root"/>
       <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>

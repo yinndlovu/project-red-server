@@ -4,3 +4,4 @@ application.properties
 application.yml
 application-*.properties
 application-*.yml
+src/main/resources/META-INF/persistence.xml
