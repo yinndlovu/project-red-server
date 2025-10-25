@@ -5,3 +5,9 @@ application.yml
 application-*.properties
 application-*.yml
 src/main/resources/META-INF/persistence.xml
+
+/.idea/compiler.xml
+/.idea/encodings.xml
+/.idea/jarRepositories.xml
+/.idea/misc.xml
+/.idea/vcs.xml
