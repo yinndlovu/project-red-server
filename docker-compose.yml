@@ -1,0 +1,6 @@
+services:
+  projectred.api:
+    image: ${DOCKER_REGISTRY-}projectredapi
+    build:
+      context: .
+      dockerfile: ProjectRed.Api/Dockerfile
