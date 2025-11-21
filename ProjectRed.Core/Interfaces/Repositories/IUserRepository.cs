@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjectRed.Core.Interfaces.Auth
+namespace ProjectRed.Core.Interfaces.Repositories
 {
-    internal interface IRegisterService
+    internal interface IUserRepository
     {
     }
 }
