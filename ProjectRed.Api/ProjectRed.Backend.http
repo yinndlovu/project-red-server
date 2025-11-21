@@ -1,0 +1,6 @@
+@ProjectRed.Backend_HostAddress = http://localhost:5263
+
+GET {{ProjectRed.Backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
