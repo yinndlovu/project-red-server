@@ -361,3 +361,8 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+**/appsettings.*.json
+
+/ProjectRed.Api/appsettings.Development.json
+/ProjectRed.Api/appsettings.json
