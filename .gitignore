@@ -366,3 +366,4 @@ FodyWeavers.xsd
 
 ProjectRed.Api/appsettings.json
 ProjectRed.Api/appsettings.Development.json
+/ProjectRed.Api/appsettings.json
