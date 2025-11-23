@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ProjectRed.Core.DTOs.Data;
+using ProjectRed.Core.DTOs.Requests.Auth;
+using ProjectRed.Core.DTOs.Responses;
 
 namespace ProjectRed.Core.Interfaces.Services.Auth
 {
-    internal interface IRegisterService
+    public interface IRegisterService
     {
+        Task<AuthResponse<UserDto>> RegisterAsync(RegisterRequest request);
     }
 }
