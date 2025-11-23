@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ProjectRed.Core.Entities;
 
 namespace ProjectRed.Core.Interfaces.Repositories
 {
-    internal interface IUserRepository
+    public interface IUserRepository
     {
+        Task<User?> FindById(int id);
+        Task<User?> FindByEmail(string email);
+        Task<bool> UserEmailExists(string email);
+        Task AddAsync(User user);
+        Task<bool> SaveChangesAsync();
     }
 }
